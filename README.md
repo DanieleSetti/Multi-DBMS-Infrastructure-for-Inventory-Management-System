@@ -1,4 +1,4 @@
-# 🗄️ Multi-DBMS Infrastructure Lab – Prepared for Kyndryl
+# 🗄️ Multi-DBMS Infrastructure Lab
 
 ## 📘 Project Overview
 
