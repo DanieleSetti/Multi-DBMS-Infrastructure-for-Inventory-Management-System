@@ -2,8 +2,7 @@
 
 ## 📘 Project Overview
 
-This lab simulates the deployment and administration of a multi-database infrastructure for a fictional mid-size **Enterprise Inventory Management System**, with a focus on real-world DBA responsibilities.  
-It is built to reflect operational environment: multiple DBMS platforms, automation, secure access, disaster recovery, and performance considerations — all designed to mirror enterprise-scale challenges.
+This project simulates the infrastructure supporting a fictional Enterprise Inventory & Asset Management System. The goal is to reflect realistic challenges and solutions a DBA faces when managing diverse data workloads across multiple platforms (PostgreSQL, MySQL, Oracle, SQL Server, MongoDB), with attention to automation, security, and operational resilience.
 
 ---
 
