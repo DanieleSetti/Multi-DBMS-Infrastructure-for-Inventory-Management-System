@@ -149,23 +149,6 @@ The successful execution confirms that:
 
 ## 📅 PostgreSQL Installation & Remote Access
 
-### ✅ Verification Checklist
-
-- [x] PostgreSQL is successfully installed on **VM2** (192.168.56.11).
-- [x] Remote access to PostgreSQL from **VM1** is confirmed using:
-  ```bash
-  psql -h 192.168.56.11 -U postgres -W
-
-* [x] Local access on **VM2** is confirmed via:
-
-  ```bash
-  sudo -u postgres psql
-  ```
-* [x] Ansible playbook is created to automate installation and configuration.
-* [x] PostgreSQL is configured to accept remote connections from the internal network.
-
----
-
 ### ⚙️ Ansible Playbook: `playbooks/postgresql.yml`
 
 This playbook automates the full installation and configuration of PostgreSQL on the target database server (VM2).
