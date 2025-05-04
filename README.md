@@ -21,25 +21,16 @@ To showcase hands-on competence in:
 ## 📚 Table of Contents
 
 
-* [Project Overview](#project-overview)
-* [Objective](#objective)
-* [Motivation](#motivation)
-* [Goals](#goals)
-* [Scripts](#scripts)
-* [Database Setup](#database-setup)
-* [Backup & Restore](#backup-and-restore)
-* [Performance Testing](#performance-testing)
-* [Firewall Configuration](#firewall-configuration)
-* [Disaster Recovery](#disaster-recovery)
-    * [PostgreSQL Disaster Recovery](#postgresql-disaster-recovery)
-    * [MariaDB Disaster Recovery](#mariadb-disaster-recovery)
-    * [MongoDB Disaster Recovery](#mongodb-disaster-recovery)
-    * [Firewall Lockout](#firewall-lockout)
-    * [Total System Loss](#total-system-loss)
-    * [Post-DR Verification](#post-dr-verification)
-* [Architecture](#architecture)
-* [Usage](#usage)
-* [Future Improvements](#future-improvements)
+1. [Introduction](#introduction)
+2. [Project Overview](#project-overview)
+3. [Disaster Recovery Plan](#disaster-recovery-plan)
+   - [1. PostgreSQL Disaster Recovery](#postgresql-disaster-recovery)
+   - [2. MariaDB Disaster Recovery](#mariadb-disaster-recovery)
+   - [3. MongoDB Disaster Recovery](#mongodb-disaster-recovery)
+   - [4. Firewall Lockout (UFW Misconfiguration)](#firewall-lockout-ufw-misconfiguration)
+   - [5. Total System Loss / VM Deleted](#total-system-loss-vm-deleted)
+4. [Verification Tasks (Post-DR)](#verification-tasks-post-dr)
+5. [Disaster Recovery Gaps (To Be Improved)](#disaster-recovery-gaps-to-be-improved)
 
 ---
 
