@@ -849,9 +849,6 @@ db.grantRolesToUser("admin", [{ role: "backup", db: "admin" }]);
 
 ---
 
-Sure, here's how you can add this section to your GitHub README file for your project:
-
-````markdown
 ## 🔧 TASK 2 – Service Monitoring (Manual)
 
 To monitor the status of your services and ensure they are running and set to start on boot, use the following script `check_services.sh`:
