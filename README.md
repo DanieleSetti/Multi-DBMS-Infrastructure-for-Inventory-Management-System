@@ -457,7 +457,7 @@ Successful connection confirms that:
 
 ## 🛡️ Host Machine Cannot Connect (By Design)
 
-Your host PC cannot access the database VM directly. This is expected — the firewall only allows access from **VM1 (192.168.56.10)**, the Ansible control node.
+Host PC cannot access the database VM directly. This is expected — the firewall only allows access from **VM1 (192.168.56.10)**, the Ansible control node.
 
 ✔️ This enforces a **bastion model**: external traffic must first connect to the Ansible host, then from there to internal VMs (e.g. via SSH or DB client).
 
