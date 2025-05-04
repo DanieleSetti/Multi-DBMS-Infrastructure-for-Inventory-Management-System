@@ -746,7 +746,7 @@ db.createUser({
 
 ---
 
-## 📦 Backup & Restore Scripts (Day 5)
+## 📦 Backup & Restore Scripts
 
 > All backups are designed to be integrated into future **Ansible Playbooks** for automation.
 
@@ -760,6 +760,25 @@ BACKUP_DIR="/var/backups/postgres"
 mkdir -p "$BACKUP_DIR"
 FILENAME="pg_backup_$(date +%F_%H-%M).sql"
 sudo -u postgres pg_dumpall > "$BACKUP_DIR/$FILENAME"
+```
+---
+
+### 1.2 MariaDB Backup
+
+Create `mariadb_backup.sh`:
+
+```bash
+#!/bin/bash
+BACKUP_DIR="/var/backups/mysql"
+mkdir -p "$BACKUP_DIR"
+FILENAME="mysql_backup_$(date +%F_%H-%M).sql"
+mysqldump -u testuser -p'testpass' --all-databases > "$BACKUP_DIR/$FILENAME"
+```
+
+Restore:
+
+```bash
+mysql -u root -p < mysql_backup_2025-05-03_10-45.sql
 ```
 
 ---
