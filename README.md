@@ -2,7 +2,7 @@
 
 ## 📘 Project Overview
 
-This project simulates the infrastructure supporting a fictional Enterprise Inventory & Asset Management System. The goal is to reflect realistic challenges and solutions a DBA faces when managing diverse data workloads across multiple platforms (PostgreSQL, MySQL, Oracle, SQL Server, MongoDB), with attention to automation, security, and operational resilience.
+This project simulates the infrastructure supporting a fictional Enterprise Inventory & Asset Management System. The goal is to reflect realistic challenges and solutions a DBA faces when managing diverse data workloads across multiple platforms (PostgreSQL, MySQL, SQL Server, MongoDB) with attention to automation, security, and operational resilience.
 
 ---
 
