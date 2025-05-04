@@ -850,7 +850,7 @@ mongod is running
 
 ---
 
-### 🔧 Basic Health Checks for Databases
+### Basic Health Checks for Databases
 
 To perform additional health checks on each of the DBMS (PostgreSQL, MySQL/MariaDB, MongoDB), we can use a script to ping each database via their respective command-line tools (`psql`, `mysql`, `mongo`). The health check script will log the results to a file located at `/var/log/db_health.log`.
 
