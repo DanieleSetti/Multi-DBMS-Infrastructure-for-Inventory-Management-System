@@ -18,22 +18,6 @@ To showcase hands-on competence in:
 
 ---
 
-## 📚 Table of Contents
-
-
-1. [Introduction](#introduction)
-2. [Project Overview](#project-overview)
-3. [Disaster Recovery Plan](#disaster-recovery-plan)
-   - [1. PostgreSQL Disaster Recovery](#postgresql-disaster-recovery)
-   - [2. MariaDB Disaster Recovery](#mariadb-disaster-recovery)
-   - [3. MongoDB Disaster Recovery](#mongodb-disaster-recovery)
-   - [4. Firewall Lockout (UFW Misconfiguration)](#firewall-lockout-ufw-misconfiguration)
-   - [5. Total System Loss / VM Deleted](#total-system-loss-vm-deleted)
-4. [Verification Tasks (Post-DR)](#verification-tasks-post-dr)
-5. [Disaster Recovery Gaps (To Be Improved)](#disaster-recovery-gaps-to-be-improved)
-
----
-
 ## 🎯 Goals
 
 * Create a realistic, testable multi-DBMS lab environment using PostgreSQL, MariaDB, and MongoDB
